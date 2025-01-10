@@ -66,7 +66,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
       "MintBot cân spam nhưng không có gì đáng để bạn spam."
     ];
     var link = [
-      "https://i.imgur.com/6WNtJvb.jpeg",
+      "https://i.imgur.com/KlXN1g8.jpeg",
     ];
 
     var i = 1;
@@ -88,7 +88,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
             }
     var callback = () => 
       api.sendMessage({ body: `🌹𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍FO 🌹
-< ───────────────── >\n♪♪♪♪♪♪♪『${namebot}』.♪♪♪♪♪♪♪\n< ───────────────── >\n» Prefix system: ${PREFIX}\n» Prefix box: ${prefix}\n» Modules: ${commands.size}\n» Ping: ${Date.now() - dateNow}ms\n» Total users: ${global.data.allUserID.length} \n» Total threads: ${global.data.allThreadID.length} ─────────────────\n╭───────────╮\n= 𝐎𝐰𝐧𝐞𝐫 ➻    𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 \n╰───────────╯ ╭────────────╮\n𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮\n╰────────────╯\n𝐊𝐢𝐬𝐢 𝐁𝐡𝐢 𝐓𝐚𝐇𝐚𝐫𝐚 𝐊𝐢 𝐇𝐞𝐥𝐩 𝐋𝐚𝐧𝐢 𝐇𝐨 𝐌𝐞𝐒𝐒𝐠 𝐊𝐚𝐑𝐞 𝐎𝐰𝐧𝐞𝐫 ➻  𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮\n< ─────── > https://www.facebook.com/aadi.babu123?mibextid=ZbWKwL\n< ───────────────── >`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
+< ───────────────── >\n♪♪♪♪♪♪♪『${namebot}』.♪♪♪♪♪♪♪\n< ───────────────── >\n» Prefix system: ${PREFIX}\n» Prefix box: ${prefix}\n» Modules: ${commands.size}\n» Ping: ${Date.now() - dateNow}ms\n» Total users: ${global.data.allUserID.length} \n» Total threads: ${global.data.allThreadID.length} ─────────────────\n╭───────────╮\n= 𝐎𝐰𝐧𝐞𝐫 ➻   𝐀𝐋𝐈𝐒𝐇𝐀 𝐑𝐀𝐍𝐈 \n╰───────────╯ ╭────────────╮\n𝐀𝐥𝐢𝐬𝐡𝐚 𝐫𝐚𝐧𝐢\n╰────────────╯\n𝐊𝐢𝐬𝐢 𝐁𝐡𝐢 𝐓𝐚𝐇𝐚𝐫𝐚 𝐊𝐢 𝐇𝐞𝐥𝐩 𝐋𝐚𝐧𝐢 𝐇𝐨 𝐌𝐞𝐒𝐒𝐠 𝐊𝐚𝐑𝐞 𝐎𝐰𝐧𝐞𝐫 ➻  𝐀𝐥𝐢𝐬𝐡𝐚\n< ─────── > https://www.facebook.com/alisha. Rani123?mibextid=ZbWKwL\n< ───────────────── >`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/kensu.jpg")).on("close", () => callback()); 
   }
 };
