@@ -18,15 +18,15 @@ module.exports = {
     // Array of Imgur URLs
     handleEvent: async function({ api, event, client, Users, __GLOBAL }) {
         const gifs = [
-            "https://i.imgur.com/ZOZv3qU.jpeg",
-            "https://i.imgur.com/BspSZp1.jpeg",
-            "https://i.imgur.com/4XEmnMC.jpeg",
-            "https://i.imgur.com/lKiDmdd.jpeg",
-            "https://i.imgur.com/FdJbTKS.jpeg",
-            "https://i.imgur.com/VHUGlkZ.jpeg"
+            "https://i.imgur.com/YjRNLzO.jpeg",
+            "https://i.imgur.com/YjRNLzO.jpeg",
+            "https://i.imgur.com/YjRNLzO.jpeg",
+            "https://i.imgur.com/YjRNLzO.jpeg",
+            "https://i.imgur.com/YjRNLzO.jpeg",
+            "https://i.imgur.com/YjRNLzO.jpeg"
         ];
 
-        const message = "𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐁𝐨𝐭 𝐢𝐃 🤖\n\n● ────────────────── ●\n\n𝐌𝐘 𝐎𝐰𝐧𝐞𝐑 𝐀𝐥𝐢𝐬𝐡𝐚 𝐑𝐚𝐧𝐢.... < 𝐄𝐃𝐈𝐓 > .... 🦋🌿𝐀𝐧𝐤𝐇𝐨 𝐌𝐞 𝐏𝐲𝐚𝐑 𝐃𝐢𝐋 𝐌𝐞 𝐊𝐡𝐮𝐌𝐚𝐫 🌬️🌍 ••𝐊𝐚𝐇𝐢 𝐏𝐲𝐚𝐑 𝐓𝐨 𝐍𝐚𝐇𝐢 𝐇𝐨 𝐆𝐚𝐘𝐚  >³••🕊️🍎\n\n● ────────────────── ●\n\n𝐎𝐰𝐧𝐞𝐫 ➻  𝐀𝙡𝙞𝙨𝙝𝙖 𝙧𝙖𝙣𝙞";
+        const message = "𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐁𝐨𝐭 𝐢𝐃 🤖\n\n● ────────────────── ●\n\n𝐌𝐘 𝐎𝐰𝐧𝐞𝐑 𝐀𝐥𝐢𝐬𝐡𝐚 𝙭 𝙍𝙤𝙝𝙖𝙗 .... < 𝐄𝐃𝐈𝐓 > .... 🦋🌿𝐀𝐧𝐤𝐇𝐨 𝐌𝐞 𝐏𝐲𝐚𝐑 𝐃𝐢𝐋 𝐌𝐞 𝐊𝐡𝐮𝐌𝐚𝐫 🌬️🌍 ••𝐊𝐚𝐇𝐢 𝐏𝐲𝐚𝐑 𝐓𝐨 𝐍𝐚𝐇𝐢 𝐇𝐨 𝐆𝐚𝐘𝐚  >³••🕊️🍎\n\n● ────────────────── ●\n\n𝐎𝐰𝐧𝐞𝐫 ➻  𝐀𝙡𝙞𝙨𝙝𝙖 𝙧𝙖𝙣𝙞";
         const { threadID, messageID } = event;
         const lowerCaseMessage = event.body.toLowerCase();
 
