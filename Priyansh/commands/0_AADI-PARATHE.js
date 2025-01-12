@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         var { threadID, messageID } = event;
         if (event.body.indexOf("parathe")==0 || event.body.indexOf("paratha")==0 || event.body.indexOf("PARATHE")==0 || event.body.indexOf("Parathe")==0) {
                 var msg = {
-                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 \n< ────────────────── >\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐏𝐚𝐑𝐚𝐓𝐡𝐞\n< ────────────────── >",
+                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐀𝐋𝐈𝐒𝐇𝐀 𝐑𝐀𝐍𝐈 \n< ────────────────── >\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐏𝐚𝐑𝐚𝐓𝐡𝐞\n< ────────────────── >",
                                 attachment: fs.createReadStream(__dirname + `/noprefix/7688e35b3d9376764427668db625967c.jpg`)
                         }
                         api.sendMessage(msg, threadID, messageID);
